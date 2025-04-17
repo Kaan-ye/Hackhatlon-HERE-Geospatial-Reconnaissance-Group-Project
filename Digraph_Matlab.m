@@ -4,8 +4,7 @@
 % Version: 1.0
 %
 % IMPORTANT NOTE: This enhanced visualization was developed prior to the final
-% presentation but could not be included due to time constraints. The code
-% implements an advanced graph visualization technique with customizable
+% presentation. The code implements an advanced graph visualization technique with customizable
 % parameters and aesthetically optimized output.
 %
 % This script demonstrates how to:
@@ -15,7 +14,7 @@
 %  - Configure multiple visualization parameters
 
 % Configuration Parameters
-% Adjust these parameters to customize the visualization
+
 config = struct();
 config.figureSize = [900, 700];     % Width and height of output figure
 config.nodeBaseSize = 6;            % Base size for all nodes
