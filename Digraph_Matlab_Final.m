@@ -1,5 +1,5 @@
-%% Advanced Directed Graph Visualization from Tabular Data
-% Author: [Kaan Yiğit Ertem, Ceren Kekeç Spatial Reconnaissance]
+% Advanced Directed Graph Visualization from Tabular Data
+% Author: [Kaan Yiğit Ertem, Ceren Kekeç, Kamal Jokar Spatial Reconnaissance]
 % Date: April 17, 2025
 % Version: 1.0
 %
@@ -16,11 +16,11 @@
 
 
 
-%% Simple Directed Graph Visualization
+% Simple Directed Graph Visualization
 % Created: April 17, 2025
 % Note: This visualization was developed but not included in the final presentation.
 
-%% Create Sample Data
+% Create Sample Data
 % Create example data for our graph
 source = [1, 1, 2, 2, 3, 3, 4, 5, 6, 6];
 target = [2, 3, 4, 5, 5, 6, 7, 7, 8, 8];
@@ -33,7 +33,7 @@ data = table(source', target', weight', 'VariableNames', {'Source', 'Target', 'W
 disp('Graph data:');
 disp(data);
 
-%% Create and Plot Graph
+% Create and Plot Graph
 % Create the digraph from our data
 G = digraph(data.Source, data.Target, data.Weight);
 
@@ -66,7 +66,7 @@ p.LineWidth = 1 + G.Edges.Weight;
 node_colors = jet(numnodes(G));
 p.NodeColor = node_colors;
 
-%% Finalize Visualization
+% Finalize Visualization
 % Add title
 title('Directed Graph Visualization', 'FontSize', 14);
 
