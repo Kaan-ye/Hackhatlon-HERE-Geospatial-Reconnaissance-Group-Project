@@ -1,0 +1,32 @@
+## References
+
+1. **Wasserman, L.** (2004). *All of Statistics: A Concise Course in Statistical Inference*. Springer Science & Business Media.  
+   - This book provides a comprehensive overview of statistical concepts used throughout the analysis, including descriptive statistics, correlation, and hypothesis testing.
+
+2. **Devore, J. L.** (2015). *Probability and Statistics for Engineering and the Sciences*. Cengage Learning.  
+   - A key resource for understanding the fundamental statistical principles applied in this project, especially those involving correlation analysis and data distribution.
+
+3. **MATLAB Documentation** (2021). *MATLAB Statistics and Machine Learning Toolbox*. MathWorks.  
+   - The official MATLAB documentation was used extensively to implement statistical tests, generate plots, and perform data analysis. Relevant functions include `mean()`, `std()`, `kstest()`, and `corr()`.
+
+4. **Bain, L. J., & Engelhardt, M.** (1992). *Introduction to Probability and Mathematical Statistics*. Duxbury Press.  
+   - A reference for probability distributions and statistical tests used in the project.
+
+5. **Hastie, T., Tibshirani, R., & Friedman, J.** (2009). *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. Springer.  
+   - A foundational text in machine learning that was used to inform the predictive modeling aspects of the project, including feature selection, regression, and classification methods.
+
+6. **James, G., Witten, D., Hastie, T., & Tibshirani, R.** (2013). *An Introduction to Statistical Learning: With Applications in R*. Springer.  
+   - This book offers a more accessible introduction to machine learning algorithms, and its examples have been adapted for the project’s data analysis and modeling.
+
+7. **Longley, P. A., Goodchild, M. F., Maguire, D. J., & Rhind, D. W.** (2015). *Geographic Information Systems and Science* (4th ed.). Wiley.  
+   - This textbook covers the fundamental concepts of GIS, including spatial analysis techniques and the implementation of GIS technologies, which informed the project’s data handling and analysis using geographic coordinates.
+
+8. **Bolstad, P.** (2016). *GIS Fundamentals: A First Text on Geographic Information Systems* (6th ed.). Eider Press.  
+   - A key resource for understanding GIS principles, which has been referenced for spatial data processing and handling in this project.
+
+### Authors
+- **Kaan Yiğit Ertem**
+- **Ceren Kekeç**
+- **Kamal Jokar**
+
+These references provided the foundation for the statistical methods, machine learning techniques, GIS concepts, and MATLAB functionalities employed in this analysis.
