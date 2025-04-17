@@ -1,6 +1,6 @@
-%% Advanced Directed Graph Visualization from Tabular Data
+% Advanced Directed Graph Visualization from Tabular Data
 
-% Author: Kaan Yiğit Ertem, Ceren Kekeç - Spatial Reconnaissance
+% Author: Kaan Yiğit Ertem, Ceren Kekeç, Kamal Jokar - Spatial Reconnaissance
 % Date: April 17, 2025
 %
 % IMPORTANT NOTE: This enhanced visualization was developed prior to the final
