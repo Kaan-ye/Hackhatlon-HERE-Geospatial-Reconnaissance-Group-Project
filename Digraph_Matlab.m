@@ -1,4 +1,4 @@
-%% Advanced Directed Graph Visualization from Tabular Data
+% Advanced Directed Graph Visualization from Tabular Data
 % Author: [Kaan Yiğit Ertem, Ceren Kekeç Spatial Reconnaissance]
 % Date: April 17, 2025
 % Version: 1.0
@@ -14,7 +14,7 @@
 %  - Optimize layouts for better readability
 %  - Configure multiple visualization parameters
 
-%% Configuration Parameters
+% Configuration Parameters
 % Adjust these parameters to customize the visualization
 config = struct();
 config.figureSize = [900, 700];     % Width and height of output figure
