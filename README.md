@@ -49,3 +49,20 @@ Using historical road network data from **HERE Sample Data for Students** (2017â
 4. **Forecasting**  
    - Trained regression models to predict likely expansion areas. 
    - Visualized results for 2025 scenario simulation.
+
+
+##  Outcomes
+  
+-  **Quantified Road Expansion**: We identified and classified newly added road segments between 2017â€“2019 using coordinate-based geometry comparison and spatial filtering techniques.
+
+-  **Predictive Modeling**: Developed regression-based forecasting models to estimate future road network growth in urban areas with limited temporal data.
+
+-  **Geospatial Visualization**: Created dynamic heatmaps and Voronoi-based spatial influence zones to highlight areas of densification and infrastructural spread.
+
+-  **Tool Integration**: Demonstrated the integration of Python (data processing & ML), MATLAB (statistical analysis), and QGIS (spatial visualization) in a unified geospatial workflow.
+
+-  **Data-Driven Insight Generation**: Enabled data-backed decision support for future infrastructure planning using only three years of historical data.
+
+-  **Scalable Approach**: The methodology is transferable to other urban regions where limited but structured road network data is available.
+
+-  Resulted in a with potential for real-world implementation and further development.
