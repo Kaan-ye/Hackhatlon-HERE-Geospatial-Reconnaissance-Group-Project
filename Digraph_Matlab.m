@@ -1,5 +1,5 @@
 % Advanced Directed Graph Visualization from Tabular Data
-% Author: [Kaan Yiğit Ertem, Ceren Kekeç Spatial Reconnaissance]
+% Author: [Kaan Yiğit Ertem, Ceren Kekeç,Kamal Jokar Spatial Reconnaissance]
 % Date: April 17, 2025
 % Version: 1.0
 %
@@ -26,7 +26,7 @@ config.arrowSize = 8;               % Size of directional arrows
 config.useColorGradient = true;     % Use color gradient for nodes
 config.circularLayout = true;       % Use circular layout instead of force layout
 
-%% Generate Sample Dataset
+% Generate Sample Dataset
 % In production, this would be replaced by data import functionality
 fprintf('Generating sample graph dataset...\n');
 
@@ -43,7 +43,7 @@ fprintf('Dataset created with %d connections between nodes\n', height(graphData)
 disp('Sample of the dataset:');
 disp(head(graphData, 5));
 
-%% Create Directed Graph Object
+% Create Directed Graph Object
 % Initialize graph object from tabular data
 G = digraph(graphData.Source, graphData.Target, graphData.Weight);
 fprintf('Graph created with %d nodes and %d edges\n', numnodes(G), numedges(G));
@@ -57,7 +57,7 @@ nodeMetrics.betweennessCentrality = centrality(G, 'betweenness');
 
 fprintf('Network metrics calculated for all nodes\n');
 
-%% Generate Visualization
+% Generate Visualization
 fprintf('Generating graph visualization...\n');
 
 % Initialize figure with appropriate size
@@ -104,7 +104,7 @@ else
     fprintf('Applied uniform coloring to all nodes\n');
 end
 
-%% Layout Optimization
+% Layout Optimization
 % Apply custom circular layout for optimal visibility
 if config.circularLayout
     fprintf('Optimizing node positions with circular layout...\n');
@@ -120,7 +120,7 @@ else
     fprintf('Using force-directed layout algorithm\n');
 end
 
-%% Visualization Enhancements
+% Visualization Enhancements
 % Add title and metadata
 title('Network Analysis Visualization', 'FontSize', 14, 'FontWeight', 'bold');
 subtitle('Directed Graph with Weighted Connections', 'FontSize', 12);
